@@ -1,0 +1,119 @@
+html {
+    background: url(../Asset/birger-strahl-1XhmIcBB-EA-unsplash.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.nav-link {
+    padding: 0 2.5rem;
+    color: white;
+}
+
+.nav-link:hover{
+    opacity: 0.8;
+    background-color:aliceblue;
+    color:#1A1B27;
+
+}
+
+.sm-icon {
+    padding: 0 2rem;
+    color: black;
+}
+
+.logo {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 10rem;
+}
+
+.logo:hover{
+    opacity: 0.8;
+}
+
+nav {
+    font-size:20px;
+    font-weight:700;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 32px;
+}
+
+button {
+    padding: 12px 48px;
+    border-radius:50px;
+    color: white;
+    margin-top: 1rem;
+    cursor: pointer;
+    outline: none;
+    border-width: 0;
+    background-color: #1A1B27;
+    font-weight: 600;
+    width: 100%;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+.bottom-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.signup {
+    padding-left: 5px;
+    text-align:center;
+    text-decoration: none;
+    cursor: pointer;
+    color: #21D4FD;
+}
+
+.signup:hover{
+    opacity: 0.8;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    padding-top: 4rem;
+}
+
+.sub-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30vw;
+    height: 70vh;
+    border-radius: 15px;
+    box-shadow: rgba(50 50 93 0,25) 0px 13px 27px -5px, rgba(0 0 0 0.3) 0px 8px 16px -8px;
+    background-color: white;
+}
+
+h2 {
+    margin: 1.5rem 0 2rem 0;
+    text-align: center;
+}
+
+label {
+    padding-left: 16px;
+    opacity: 0.75;
+}
+
+input {
+    display: flex;
+    border-radius: 50px;
+    border-style: none;
+    outline: none;
+    margin-top: 8px;
+    padding: 12px 24px;
+    width: 250px;
+    background-color: #EAEEED;
+}
+
+input:focus {
+    opacity: 0.7;
+}
